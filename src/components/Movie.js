@@ -24,7 +24,7 @@ function Movie({ year, title, summary, poster, genres, id }) {
               </li>
             ))}
           </ul>
-          <p className="card-text movie_summary">{summary.slice(0, 100)}...</p>
+          <p className="card-text movie_summary">{summary.slice(0, 90)}...</p>
           <Link
             to={{
               pathname: `/movie/${id}`,
